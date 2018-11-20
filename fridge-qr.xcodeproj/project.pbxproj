@@ -12,6 +12,18 @@
 		380A239121A47A0100663E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380A238F21A47A0100663E46 /* Main.storyboard */; };
 		380A239321A47A0300663E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380A239221A47A0300663E46 /* Assets.xcassets */; };
 		380A239621A47A0300663E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380A239421A47A0300663E46 /* LaunchScreen.storyboard */; };
+		380A239E21A47F5200663E46 /* GeneratorQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A239D21A47F5200663E46 /* GeneratorQRViewController.swift */; };
+		380A23A121A47F8500663E46 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A239F21A47F8500663E46 /* ConfirmViewController.swift */; };
+		380A23A221A47F8500663E46 /* ReaderQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23A021A47F8500663E46 /* ReaderQRViewController.swift */; };
+		380A23A421A47F9800663E46 /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23A321A47F9800663E46 /* RestApi.swift */; };
+		380A23A821A4852C00663E46 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23A721A4852C00663E46 /* ProductController.swift */; };
+		380A23AD21A485CA00663E46 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23AC21A485CA00663E46 /* Product.swift */; };
+		380A23B021A4869900663E46 /* TableViewDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23AF21A4869900663E46 /* TableViewDataManager.swift */; };
+		380A23B221A486D000663E46 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23B121A486D000663E46 /* Protocol.swift */; };
+		380A23B421A48D7A00663E46 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23B321A48D7A00663E46 /* ProductsViewController.swift */; };
+		380A23B621A48E0500663E46 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23B521A48E0500663E46 /* ProductTableViewCell.swift */; };
+		380A23B821A4920B00663E46 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23B721A4920B00663E46 /* Utils.swift */; };
+		B459124EDAA19F92E5D904A8 /* Pods_fridge_qr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B648F3B1001D8CA221E3FD12 /* Pods_fridge_qr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,20 @@
 		380A239221A47A0300663E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		380A239521A47A0300663E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		380A239721A47A0300663E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380A239D21A47F5200663E46 /* GeneratorQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratorQRViewController.swift; sourceTree = "<group>"; };
+		380A239F21A47F8500663E46 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		380A23A021A47F8500663E46 /* ReaderQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderQRViewController.swift; sourceTree = "<group>"; };
+		380A23A321A47F9800663E46 /* RestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
+		380A23A721A4852C00663E46 /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+		380A23AC21A485CA00663E46 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		380A23AF21A4869900663E46 /* TableViewDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataManager.swift; sourceTree = "<group>"; };
+		380A23B121A486D000663E46 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		380A23B321A48D7A00663E46 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		380A23B521A48E0500663E46 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		380A23B721A4920B00663E46 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A201164B26CFE761AC9D53AE /* Pods-fridge-qr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fridge-qr.release.xcconfig"; path = "Pods/Target Support Files/Pods-fridge-qr/Pods-fridge-qr.release.xcconfig"; sourceTree = "<group>"; };
+		B648F3B1001D8CA221E3FD12 /* Pods_fridge_qr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fridge_qr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3995B17FBAB484262A52384 /* Pods-fridge-qr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fridge-qr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fridge-qr/Pods-fridge-qr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B459124EDAA19F92E5D904A8 /* Pods_fridge_qr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005A73C60E51DDF7C25AD6B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3995B17FBAB484262A52384 /* Pods-fridge-qr.debug.xcconfig */,
+				A201164B26CFE761AC9D53AE /* Pods-fridge-qr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		380A237F21A47A0100663E46 = {
 			isa = PBXGroup;
 			children = (
 				380A238A21A47A0100663E46 /* fridge-qr */,
 				380A238921A47A0100663E46 /* Products */,
+				005A73C60E51DDF7C25AD6B5 /* Pods */,
+				BC72D3979B2B6F02D3CA1D4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,66 @@
 		380A238A21A47A0100663E46 /* fridge-qr */ = {
 			isa = PBXGroup;
 			children = (
+				380A23A621A47FEE00663E46 /* RestApi */,
+				380A23A521A47FCA00663E46 /* Screens */,
+				380A23AE21A4868C00663E46 /* Utils */,
 				380A238B21A47A0100663E46 /* AppDelegate.swift */,
-				380A238D21A47A0100663E46 /* ViewController.swift */,
-				380A238F21A47A0100663E46 /* Main.storyboard */,
 				380A239221A47A0300663E46 /* Assets.xcassets */,
 				380A239421A47A0300663E46 /* LaunchScreen.storyboard */,
 				380A239721A47A0300663E46 /* Info.plist */,
 			);
 			path = "fridge-qr";
+			sourceTree = "<group>";
+		};
+		380A23A521A47FCA00663E46 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				380A238D21A47A0100663E46 /* ViewController.swift */,
+				380A238F21A47A0100663E46 /* Main.storyboard */,
+				380A239D21A47F5200663E46 /* GeneratorQRViewController.swift */,
+				380A23A021A47F8500663E46 /* ReaderQRViewController.swift */,
+				380A239F21A47F8500663E46 /* ConfirmViewController.swift */,
+				380A23B321A48D7A00663E46 /* ProductsViewController.swift */,
+				380A23B521A48E0500663E46 /* ProductTableViewCell.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		380A23A621A47FEE00663E46 /* RestApi */ = {
+			isa = PBXGroup;
+			children = (
+				380A23A321A47F9800663E46 /* RestApi.swift */,
+				380A23A921A4853D00663E46 /* Product */,
+			);
+			path = RestApi;
+			sourceTree = "<group>";
+		};
+		380A23A921A4853D00663E46 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				380A23A721A4852C00663E46 /* ProductController.swift */,
+				380A23AC21A485CA00663E46 /* Product.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		380A23AE21A4868C00663E46 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				380A23AF21A4869900663E46 /* TableViewDataManager.swift */,
+				380A23B121A486D000663E46 /* Protocol.swift */,
+				380A23B721A4920B00663E46 /* Utils.swift */,
+			);
+			name = Utils;
+			path = "fridge-qr/Utils";
+			sourceTree = SOURCE_ROOT;
+		};
+		BC72D3979B2B6F02D3CA1D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B648F3B1001D8CA221E3FD12 /* Pods_fridge_qr.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 380A239A21A47A0300663E46 /* Build configuration list for PBXNativeTarget "fridge-qr" */;
 			buildPhases = (
+				5C9D7A6D4B3E63DC8D5F1319 /* [CP] Check Pods Manifest.lock */,
 				380A238421A47A0100663E46 /* Sources */,
 				380A238521A47A0100663E46 /* Frameworks */,
 				380A238621A47A0100663E46 /* Resources */,
+				16AE7693114ABB7AC5B02B47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +222,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16AE7693114ABB7AC5B02B47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fridge-qr/Pods-fridge-qr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CCBottomRefreshControl/CCBottomRefreshControl.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeGenerator/QRCodeGenerator.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCBottomRefreshControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeGenerator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fridge-qr/Pods-fridge-qr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9D7A6D4B3E63DC8D5F1319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fridge-qr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		380A238421A47A0100663E46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				380A238E21A47A0100663E46 /* ViewController.swift in Sources */,
+				380A23AD21A485CA00663E46 /* Product.swift in Sources */,
+				380A239E21A47F5200663E46 /* GeneratorQRViewController.swift in Sources */,
+				380A23A821A4852C00663E46 /* ProductController.swift in Sources */,
+				380A23B421A48D7A00663E46 /* ProductsViewController.swift in Sources */,
+				380A23B821A4920B00663E46 /* Utils.swift in Sources */,
+				380A23B621A48E0500663E46 /* ProductTableViewCell.swift in Sources */,
+				380A23A421A47F9800663E46 /* RestApi.swift in Sources */,
 				380A238C21A47A0100663E46 /* AppDelegate.swift in Sources */,
+				380A23A221A47F8500663E46 /* ReaderQRViewController.swift in Sources */,
+				380A23B021A4869900663E46 /* TableViewDataManager.swift in Sources */,
+				380A23A121A47F8500663E46 /* ConfirmViewController.swift in Sources */,
+				380A23B221A486D000663E46 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +440,7 @@
 		};
 		380A239B21A47A0300663E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3995B17FBAB484262A52384 /* Pods-fridge-qr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +459,7 @@
 		};
 		380A239C21A47A0300663E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A201164B26CFE761AC9D53AE /* Pods-fridge-qr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

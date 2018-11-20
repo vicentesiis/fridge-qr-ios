@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "5bef3310df5ffd93fac32da1",
+    "quantity": 50,
+    "name": "Manzana",
+    "__v": 0
+  },
+  {
+    "_id": "5bef3d5733667d949a7a1d89",
+    "quantity": 1,
+    "name": "Leche Lala",
+    "__v": 0
+  }
+]
