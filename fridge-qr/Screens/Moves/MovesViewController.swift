@@ -1,5 +1,5 @@
 //
-//  ReaderQRViewController.swift
+//  MovesViewController.swift
 //  QRTest
 //
 //  Created by Vicente Cantu Garcia on 10/17/18.
@@ -10,12 +10,14 @@ import UIKit
 import AVFoundation
 import QRCodeReader
 
-class ReaderQRViewController: UIViewController, QRCodeReaderViewControllerDelegate {
-    
-//    @IBOutlet weak var optionSegmented: UISegmentedControl!
+class MovesViewController: UIViewController, QRCodeReaderViewControllerDelegate {
     
     var value = ""
     var enter = true
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.topItem?.title = "Inventario Comedor"
+    }
     
     lazy var readerVC: QRCodeReaderViewController = {
         let builder = QRCodeReaderViewControllerBuilder {

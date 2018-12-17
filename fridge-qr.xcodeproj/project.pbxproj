@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		380A238C21A47A0100663E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A238B21A47A0100663E46 /* AppDelegate.swift */; };
-		380A238E21A47A0100663E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A238D21A47A0100663E46 /* ViewController.swift */; };
 		380A239121A47A0100663E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380A238F21A47A0100663E46 /* Main.storyboard */; };
 		380A239321A47A0300663E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380A239221A47A0300663E46 /* Assets.xcassets */; };
 		380A239621A47A0300663E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380A239421A47A0300663E46 /* LaunchScreen.storyboard */; };
 		380A239E21A47F5200663E46 /* GeneratorQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A239D21A47F5200663E46 /* GeneratorQRViewController.swift */; };
 		380A23A121A47F8500663E46 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A239F21A47F8500663E46 /* ConfirmViewController.swift */; };
-		380A23A221A47F8500663E46 /* ReaderQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23A021A47F8500663E46 /* ReaderQRViewController.swift */; };
+		380A23A221A47F8500663E46 /* MovesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23A021A47F8500663E46 /* MovesViewController.swift */; };
 		380A23A421A47F9800663E46 /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23A321A47F9800663E46 /* RestApi.swift */; };
 		380A23A821A4852C00663E46 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23A721A4852C00663E46 /* ProductController.swift */; };
 		380A23AD21A485CA00663E46 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23AC21A485CA00663E46 /* Product.swift */; };
@@ -23,20 +22,26 @@
 		380A23B421A48D7A00663E46 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23B321A48D7A00663E46 /* ProductsViewController.swift */; };
 		380A23B621A48E0500663E46 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23B521A48E0500663E46 /* ProductTableViewCell.swift */; };
 		380A23B821A4920B00663E46 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A23B721A4920B00663E46 /* Utils.swift */; };
+		383E087F21C83547006B426F /* AddProducts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E087E21C83547006B426F /* AddProducts.storyboard */; };
+		383E088121C83553006B426F /* Indicators.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E088021C83553006B426F /* Indicators.storyboard */; };
+		383E088321C83562006B426F /* Moves.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E088221C83562006B426F /* Moves.storyboard */; };
+		383E088921C835BC006B426F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E088821C835BC006B426F /* MainViewController.swift */; };
+		383E088B21C835C9006B426F /* AddProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E088A21C835C9006B426F /* AddProductsViewController.swift */; };
+		383E088D21C835D8006B426F /* IndicatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E088C21C835D8006B426F /* IndicatorsViewController.swift */; };
+		38BD20EC21C5944600C28339 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD20EB21C5944600C28339 /* ChartViewController.swift */; };
 		B459124EDAA19F92E5D904A8 /* Pods_fridge_qr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B648F3B1001D8CA221E3FD12 /* Pods_fridge_qr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		380A238821A47A0100663E46 /* fridge-qr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fridge-qr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		380A238B21A47A0100663E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		380A238D21A47A0100663E46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		380A239021A47A0100663E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		380A239221A47A0300663E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		380A239521A47A0300663E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		380A239721A47A0300663E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		380A239D21A47F5200663E46 /* GeneratorQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratorQRViewController.swift; sourceTree = "<group>"; };
 		380A239F21A47F8500663E46 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
-		380A23A021A47F8500663E46 /* ReaderQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderQRViewController.swift; sourceTree = "<group>"; };
+		380A23A021A47F8500663E46 /* MovesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovesViewController.swift; sourceTree = "<group>"; };
 		380A23A321A47F9800663E46 /* RestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
 		380A23A721A4852C00663E46 /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
 		380A23AC21A485CA00663E46 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -45,6 +50,13 @@
 		380A23B321A48D7A00663E46 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		380A23B521A48E0500663E46 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		380A23B721A4920B00663E46 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		383E087E21C83547006B426F /* AddProducts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddProducts.storyboard; sourceTree = "<group>"; };
+		383E088021C83553006B426F /* Indicators.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Indicators.storyboard; sourceTree = "<group>"; };
+		383E088221C83562006B426F /* Moves.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Moves.storyboard; sourceTree = "<group>"; };
+		383E088821C835BC006B426F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		383E088A21C835C9006B426F /* AddProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductsViewController.swift; sourceTree = "<group>"; };
+		383E088C21C835D8006B426F /* IndicatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsViewController.swift; sourceTree = "<group>"; };
+		38BD20EB21C5944600C28339 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		A201164B26CFE761AC9D53AE /* Pods-fridge-qr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fridge-qr.release.xcconfig"; path = "Pods/Target Support Files/Pods-fridge-qr/Pods-fridge-qr.release.xcconfig"; sourceTree = "<group>"; };
 		B648F3B1001D8CA221E3FD12 /* Pods_fridge_qr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fridge_qr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3995B17FBAB484262A52384 /* Pods-fridge-qr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fridge-qr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fridge-qr/Pods-fridge-qr.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,13 +118,10 @@
 		380A23A521A47FCA00663E46 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				380A238D21A47A0100663E46 /* ViewController.swift */,
-				380A238F21A47A0100663E46 /* Main.storyboard */,
-				380A239D21A47F5200663E46 /* GeneratorQRViewController.swift */,
-				380A23A021A47F8500663E46 /* ReaderQRViewController.swift */,
-				380A239F21A47F8500663E46 /* ConfirmViewController.swift */,
-				380A23B321A48D7A00663E46 /* ProductsViewController.swift */,
-				380A23B521A48E0500663E46 /* ProductTableViewCell.swift */,
+				383E088721C83594006B426F /* Main */,
+				383E087D21C8349E006B426F /* Moves */,
+				383E087C21C8349E006B426F /* Indicators */,
+				383E087B21C8349E006B426F /* AddProducts */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -145,6 +154,55 @@
 			name = Utils;
 			path = "fridge-qr/Utils";
 			sourceTree = SOURCE_ROOT;
+		};
+		383E087B21C8349E006B426F /* AddProducts */ = {
+			isa = PBXGroup;
+			children = (
+				383E087E21C83547006B426F /* AddProducts.storyboard */,
+				383E088A21C835C9006B426F /* AddProductsViewController.swift */,
+				380A239D21A47F5200663E46 /* GeneratorQRViewController.swift */,
+				383E089021C84405006B426F /* ListProducts */,
+			);
+			path = AddProducts;
+			sourceTree = "<group>";
+		};
+		383E087C21C8349E006B426F /* Indicators */ = {
+			isa = PBXGroup;
+			children = (
+				383E088021C83553006B426F /* Indicators.storyboard */,
+				383E088C21C835D8006B426F /* IndicatorsViewController.swift */,
+				38BD20EB21C5944600C28339 /* ChartViewController.swift */,
+			);
+			path = Indicators;
+			sourceTree = "<group>";
+		};
+		383E087D21C8349E006B426F /* Moves */ = {
+			isa = PBXGroup;
+			children = (
+				383E088221C83562006B426F /* Moves.storyboard */,
+				380A23A021A47F8500663E46 /* MovesViewController.swift */,
+				380A239F21A47F8500663E46 /* ConfirmViewController.swift */,
+			);
+			path = Moves;
+			sourceTree = "<group>";
+		};
+		383E088721C83594006B426F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				380A238F21A47A0100663E46 /* Main.storyboard */,
+				383E088821C835BC006B426F /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		383E089021C84405006B426F /* ListProducts */ = {
+			isa = PBXGroup;
+			children = (
+				380A23B321A48D7A00663E46 /* ProductsViewController.swift */,
+				380A23B521A48E0500663E46 /* ProductTableViewCell.swift */,
+			);
+			path = ListProducts;
+			sourceTree = "<group>";
 		};
 		BC72D3979B2B6F02D3CA1D4B /* Frameworks */ = {
 			isa = PBXGroup;
@@ -215,8 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				380A239621A47A0300663E46 /* LaunchScreen.storyboard in Resources */,
+				383E088121C83553006B426F /* Indicators.storyboard in Resources */,
 				380A239321A47A0300663E46 /* Assets.xcassets in Resources */,
+				383E087F21C83547006B426F /* AddProducts.storyboard in Resources */,
 				380A239121A47A0100663E46 /* Main.storyboard in Resources */,
+				383E088321C83562006B426F /* Moves.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +296,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/CCBottomRefreshControl/CCBottomRefreshControl.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/QRCodeGenerator/QRCodeGenerator.framework",
 				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
@@ -246,6 +308,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCBottomRefreshControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeGenerator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
@@ -284,18 +347,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380A238E21A47A0100663E46 /* ViewController.swift in Sources */,
+				38BD20EC21C5944600C28339 /* ChartViewController.swift in Sources */,
+				383E088B21C835C9006B426F /* AddProductsViewController.swift in Sources */,
 				380A23AD21A485CA00663E46 /* Product.swift in Sources */,
 				380A239E21A47F5200663E46 /* GeneratorQRViewController.swift in Sources */,
 				380A23A821A4852C00663E46 /* ProductController.swift in Sources */,
 				380A23B421A48D7A00663E46 /* ProductsViewController.swift in Sources */,
 				380A23B821A4920B00663E46 /* Utils.swift in Sources */,
+				383E088921C835BC006B426F /* MainViewController.swift in Sources */,
 				380A23B621A48E0500663E46 /* ProductTableViewCell.swift in Sources */,
 				380A23A421A47F9800663E46 /* RestApi.swift in Sources */,
 				380A238C21A47A0100663E46 /* AppDelegate.swift in Sources */,
-				380A23A221A47F8500663E46 /* ReaderQRViewController.swift in Sources */,
+				380A23A221A47F8500663E46 /* MovesViewController.swift in Sources */,
 				380A23B021A4869900663E46 /* TableViewDataManager.swift in Sources */,
 				380A23A121A47F8500663E46 /* ConfirmViewController.swift in Sources */,
+				383E088D21C835D8006B426F /* IndicatorsViewController.swift in Sources */,
 				380A23B221A486D000663E46 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

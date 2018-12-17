@@ -9,5 +9,6 @@ target 'fridge-qr' do
   pod 'Alamofire'
   pod 'AlamofireObjectMapper'
   pod 'CCBottomRefreshControl'
+  pod 'Charts'
 
 end

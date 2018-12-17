@@ -9,12 +9,14 @@
 import UIKit
 import QRCodeGenerator
 
-class GeneratorQRViewController: UIViewController {
-    
+class GeneratorQRViewController: UIViewController{
+
     @IBOutlet weak var qrCodeView: QRCodeView!
-    @IBOutlet weak var product: UITextField!
+    @IBOutlet weak var product: UIPickerView!
     @IBOutlet weak var quantity: UITextField!
     
+    let products = ["Leche Canela", "Lecha Vainilla", "Platano", "Manzana"]
+    var productSelected = "Leche Canela"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,15 +36,21 @@ class GeneratorQRViewController: UIViewController {
         view.endEditing(true)
         let body = ProductObject()
         body.product = Product()
-        body.product.name = product.text!
+        print(productSelected)
+        body.product.name = productSelected
         body.product.quantity = Int(quantity.text!)
         ProductJSON.createProduct(body: body, onResponse: { (response) in
             self.qrCodeView.isHidden = false
-            self.qrCodeView.text = "\(response._id ?? ""), \(self.product.text!)"
+            self.qrCodeView.text = "\(response._id ?? ""), \(self.productSelected)"
             let alert = UIAlertController(title: "", message: "Código QR generado\n Producto agregado", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-            self.present(alert, animated: true, completion: nil)
+            self.present(alert, animated: true, completion: {
+                self.quantity.text = ""
+            })
         }, onError: { (error) in
+            let alert = UIAlertController(title: "Error", message: "No puede agregar un producto ya existente", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
             print(Utils.dataToString(error!))
         }) { (_) in
             print("ERROR")
@@ -50,6 +58,31 @@ class GeneratorQRViewController: UIViewController {
     }
     
 }
+
+// MARK: - UIPicker
+
+extension GeneratorQRViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        productSelected = products[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return products[row]
+    }
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return products.count
+    }
+    
+    
+}
+
+// MARK: - UITextField
 
 extension GeneratorQRViewController: UITextFieldDelegate {
     

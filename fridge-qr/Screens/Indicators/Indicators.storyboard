@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zMI-Dy-9tb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Indicadores-->
+        <scene sceneID="2aS-dc-sEO">
+            <objects>
+                <viewController id="zMI-Dy-9tb" customClass="IndicatorsViewController" customModule="fridge_qr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wTy-H7-2f9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZH-d6-bc0">
+                                <rect key="frame" x="16" y="49" width="343" height="550"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="550" id="BDs-25-CfZ"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="pYB-xO-lny" kind="embed" id="JRX-k6-b7s"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tZH-d6-bc0" firstAttribute="centerX" secondItem="wTy-H7-2f9" secondAttribute="centerX" id="5fS-DC-GWc"/>
+                            <constraint firstItem="tZH-d6-bc0" firstAttribute="leading" secondItem="wTy-H7-2f9" secondAttribute="leading" constant="16" id="8jI-Rv-pZn"/>
+                            <constraint firstItem="tZH-d6-bc0" firstAttribute="centerY" secondItem="wTy-H7-2f9" secondAttribute="centerY" constant="-9.5" id="olv-eh-BbA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gWw-s1-b98"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Indicadores" image="indicator" id="0j5-H7-MPr"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IvT-cV-4dy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Chart View Controller-->
+        <scene sceneID="rNF-H2-6vG">
+            <objects>
+                <viewController id="pYB-xO-lny" customClass="ChartViewController" customModule="fridge_qr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DDV-7z-g1F">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="550"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="a0G-pW-txD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kAP-bc-aqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1668" y="53"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="indicator" width="22.5" height="22.5"/>
+    </resources>
+</document>
